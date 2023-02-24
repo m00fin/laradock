@@ -1125,8 +1125,8 @@ services:
         - ./certbot/letsencrypt/:/var/www/letsencrypt
       environment:
       # move these to .env
-        - CN=domain.here.example
-        - EMAIL=mail@example.com
+        - CN=m00fin.dev
+        - EMAIL=dev@m00f.in
       networks:
         - frontend
 
